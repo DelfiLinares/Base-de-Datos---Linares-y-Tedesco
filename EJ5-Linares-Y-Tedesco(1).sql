@@ -1,0 +1,23 @@
+insert into Paciente value ("1", "Rosa", "Liresco", "000");
+insert into Paciente value ("2", "Delfina", "Potter", "001");
+insert into Paciente value ("3", "Omar", "Aguas", "010");
+insert into Paciente value ("4", "Santino", "Yankee", "011");
+insert into Paciente value ("5", "Clara", "Tolosa", "100");
+
+insert into Ingreso value ("000", "2017-09-03", "1", "33","01");
+insert into Ingreso value ("001", "2023-06-02", "2", "44","02");
+insert into Ingreso value ("010", "2023-12-20", "3", "55","03");
+insert into Ingreso value ("011", "2024-02-04", "4", "66","04");
+insert into Ingreso value ("100", "2024-02-05", "5", "77","05");
+
+insert into Medico value ("01", "kinesiologo", "Mia", "Gonzalez");
+insert into Medico value ("02", "traumatólogo", "Juan", "Scovenna");
+insert into Medico value ("03", "pediatra", "Marta", "Lopez");
+insert into Medico value ("04", "traumatólogo", "Agustin", "Rodriguez");
+insert into Medico value ("05", "dermatologo", "Augusto", "Sierra");
+
+select nombreMedico from Medico where especialidadMedico = "traumatólogo" order by nombreMedico ;
+delete from Ingreso where ingreso_fecha < "2018-05-03" ;
+select ingreso_cama from Ingreso where id_Ingreso = "000" ;
+update Medico set especialidadMedico = "pediatra" where num_Medico = "05" ;
+select nombreMedico and num_Medico from Medico where nombreMedico like "a%" ;
