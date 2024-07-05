@@ -1,0 +1,26 @@
+/*insert into clienteEJ1 value (47278985,"Constituyentes","Santino","Pataro","2003-08-03");
+insert into clienteEJ1 value (47278986,"Floresta","Juan","Melcangrejo","2009-04-02");
+insert into clienteEJ1 value (47278987,"Villa Urquiza","Juan","Lopez","2000-07-07");
+insert into clienteEJ1 value (47278988,"Devoto","Ulises","Feroleto","2002-02-09");
+
+insert into proveedorEJ1 value (26784445,"Constituyentes","Salvador");
+insert into proveedorEJ1 value (203406588,"Pueyrredon","Francisco");
+insert into proveedorEJ1 value (26445732,"Floresta","Tomas");
+insert into proveedorEJ1 value (28564334,"Liniers","Camilo");
+
+insert into productos value (1,"pelota",500,26784445);
+insert into productos value (2,"rimel",700,203406588);
+insert into productos value (3,"gloss",200,26445732);
+insert into productos value (4,"pulsera",600,28564334);
+
+insert into cliente_has_productos value (47278985,1);
+insert into cliente_has_productos value (47278986,2);
+insert into cliente_has_productos value (47278987,3);
+insert into cliente_has_productos value (47278988,4);*/
+
+select nom_cliente,ap_cliente from clienteEJ1;
+select nom_cliente,fechanac_cliente from clienteEJ1 where nom_cliente = "Juan" and fechanac_cliente < "2005-04-26";
+
+select nombre_prod,precio_unit,cod_prod,proveedor_dni_prov from productos;
+select cliente_dnicliente from cliente_has_productos where productos_idproductos = 1;
+update clienteEJ1 set dir_cliente = "Liniers" where dni_cliente=11111111;
