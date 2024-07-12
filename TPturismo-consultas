@@ -1,0 +1,215 @@
+INSERT INTO clienteTurismo VALUE ("1", "Lopez", "Franco", "Jose Cabezon 23",75756565, 11111); 
+
+INSERT INTO clienteTurismo VALUE ("2", "Feroleto", "Olivia", "Giribone 453", 65657676, 22222); 
+
+INSERT INTO clienteTurismo VALUE ("3", "Garayzar", "Rodrigo", "Rosario 7348", 87876565, 33333); 
+
+INSERT INTO clienteTurismo VALUE ("4", "Gonzalez", "Abril", "Soho 9876", 2734943,44444); 
+
+INSERT INTO clienteTurismo VALUE ("5", "Marquez", "Luciano", "Mexico 3232", 39737339, 55555); 
+
+INSERT INTO clienteTurismo VALUE ("6", "Pataro", "Clara", "Griveo 3535", 05050505, 66666); 
+
+INSERT INTO clienteTurismo VALUE ("7", "Pitaro", "Delfina", "Belgrano 38", 98765432, 77777); 
+
+INSERT INTO clienteTurismo VALUE ("8", "Pipi", "Victoria", "Palermo 954", 54329876, 88888); 
+
+INSERT INTO clienteTurismo VALUE ("9", "Canelon", "Candela", "Constituyentes 6547", 67892345,99999); 
+
+INSERT INTO clienteTurismo VALUE ("10", "Cartas", "Luciana", "Corrientes 543", 98987676, 00000); 
+
+ 
+
+INSERT INTO Paquetes VALUE (1,"Buenos Aires",30,29,110,40,"barco"); 
+
+INSERT INTO Paquetes VALUE (2,"Bariloche",7,8,161,30,"aereo"); 
+
+INSERT INTO Paquetes VALUE (3,"Misiones",11,10,732,40,"bus"); 
+
+INSERT INTO Paquetes VALUE (4,"Bariloche",5,4,1310,40,"bus"); 
+
+INSERT INTO Paquetes VALUE (5,"Chaco",5,4,11022,40,"barco"); 
+
+INSERT INTO Paquetes VALUE (6,"Mendoza",5,4,11043,40,"aereo"); 
+
+INSERT INTO Paquetes VALUE (7,"Ushuaia",5,4,11340,40,"aereo"); 
+
+INSERT INTO Paquetes VALUE (8,"Corrientes",5,4,122210,40,"bus"); 
+
+INSERT INTO Paquetes VALUE (9,"Bariloche",7,8,1210,40,"barco"); 
+
+INSERT INTO Paquetes VALUE (10,"Jujuy",2, 1,10,40,"barco"); 
+
+ 
+
+INSERT INTO Alojamiento VALUE (1, "Buenos Aires 1234","jajac", 3, 121, 5, 0, 1, 1, 0, 0); 
+
+INSERT INTO Alojamiento VALUE (2, "Bariloche 6787","aaajc", 4, 122, 4, 2, 1, 0, 1, 0, 0); 
+
+INSERT INTO Alojamiento VALUE (3, "Misiones 8988","manoloc",6, 123, 3, 3, 1, 1, 1, 0, 0); 
+
+INSERT INTO Alojamiento VALUE (4, "Bariloche 3232","psipi", 1, 124, 2, 4, 0, 0, 0, 1, 1); 
+
+INSERT INTO Alojamiento VALUE (5, "Chaco 1111","porretrej", 4, 125, 2, 3, 0, 0, 0, 1, 1); 
+
+INSERT INTO Alojamiento VALUE (6, "Mendoza 7474","greytey", 5, 126, 1, 3, 0, 0, 0, 5, 0); 
+
+INSERT INTO Alojamiento VALUE (7, "Ushuaia 8392","fayyyyfa",2, 127, 7, 6, 0, 0, 0, 1, 0); 
+
+INSERT INTO Alojamiento VALUE (8, "Corrientes 7347","delflis",1,128,8, 7, 1, 1, 1, 3, 1); 
+
+INSERT INTO Alojamiento VALUE (9, "Bariloche 2300","nuubes", 5,129,5, 9, 0, 0, 0, 4, 0); 
+
+INSERT INTO Alojamiento VALUE (10, "Jujuyy 1232","diiiouuc", 5,130,2, 1, 1, 1, 0, 0); 
+
+ 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (1,"Buenos Aires 1234"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (2,"Bariloche 6787"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (3,"Misiones 8988"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (4,"Bariloche 3232"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (5,"Chaco 1111"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (6,"Mendoza 7474"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (7,"Ushuaia 8392"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (8,"Corrientes 7347"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (9,"Bariloche 2300"); 
+
+INSERT INTO Paquetes_has_Alojamiento VALUE (10,"Jujuy 1232"); 
+
+ 
+
+INSERT INTO Pago VALUE (01,"efectivo"); 
+
+INSERT INTO Pago VALUE (02,"tarjeta"); 
+
+INSERT INTO Pago VALUE (03,"efectivo"); 
+
+INSERT INTO Pago VALUE (04,"efectivo"); 
+
+INSERT INTO Pago VALUE (05,"tarjeta"); 
+
+INSERT INTO Pago VALUE (06,"efectivo"); 
+
+INSERT INTO Pago VALUE (07,"cheque"); 
+
+INSERT INTO Pago VALUE (08,"tarjeta"); 
+
+INSERT INTO Pago VALUE (09,"efectivo"); 
+
+INSERT INTO Pago VALUE (00,"tarjeta"); 
+
+ 
+
+INSERT INTO Reservas VALUE (1,"2022-03-03","2022-04-03","1",  1,  01); 
+
+INSERT INTO Reservas VALUE (2,"2017-09-03","2017-09-10","2",  8,  02); 
+
+INSERT INTO Reservas VALUE (3,"2017-10-07","2017-11-07","3",  3,  03); 
+
+INSERT INTO Reservas VALUE (4,"2022-01-01","2022-02-01","4",  4,  04); 
+
+INSERT INTO Reservas VALUE (5,"2022-02-09","2022-03-09","4",  5,  05); 
+
+INSERT INTO Reservas VALUE (6,"2021-09-09","2021-10-09", "6", 6,  06); 
+
+INSERT INTO Reservas VALUE (7,"2022-09-11","2022-10-11", "10", 7, 07); 
+
+INSERT INTO Reservas VALUE (8,"2022-06-06","2022-07-06", "10", 8, 08); 
+
+INSERT INTO Reservas VALUE (9,"2022-06-07","2022-07-07", "7", 9,  09); 
+
+INSERT INTO Reservas VALUE (10,"2022-09-12","2022-09-14", "8", 10,00); 
+
+ 
+
+/* ej4 */ 
+
+SELECT * FROM clienteTurismo;  
+
+/* ej5 */ 
+
+SELECT * FROM clienteTurismo WHERE dniCT = 6;  
+
+/* ej6 */ 
+
+SELECT apellidoCT, nombreCT, telCT, celularCT FROM clienteTurismo WHERE apellido LIKE "Gar%";  
+
+/* ej7 */ 
+
+SELECT nombreAlo, catAlo, dirAloj FROM Alojamiento WHERE ;  
+
+/* ej8 */ 
+
+SELECT * FROM clienteTurismo 
+
+LEFT JOIN Reservas ON idReservas IS NULL;  
+
+ /* ej9 */ 
+
+SELECT apellidoCT, nombreCT, telCT, celularCT FROM clienteTurismo WHERE apellidoCT LIKE "%ez"; 
+
+ /* ej10 */ 
+
+UPDATE clienteTurismo SET dirCT = "San Juan 1234" WHERE dniCT = "10";  
+
+ 
+
+/* ej12 */ 
+
+SELECT * FROM Paquetes WHERE diasPaq=2 AND costoPaq>6000;  
+
+/* ej13 */  
+
+SELECT idReservas from Reservas WHERE fecha_inicio >= 2017-05-01 and 2017-05-01 <= 2017-05-10  
+
+ORDER BY fecha_inicio DESC;/*ej13*/ 
+
+/*ej14*/ 
+
+DELETE FROM Reservas WHERE Reservas.clienteTurismo_dniCT = "10" ; 
+
+/*ej15*/ 
+
+SELECT Reservas.Paquetes_idPaquetes, Reservas.Pago_idPago FROM Reservas  
+
+JOIN  ; 
+
+/*ej16*/ 
+
+SELECT * FROM Paquete_has_Alojamiento WHERE Alojamiento_idAlojamiento IS NULL; 
+
+/*ej17*/ 
+
+UPDATE Alojamiento SET dirAloj = "Belgrano 15897" WHERE idAlo = 3; 
+
+/*ej18*/ 
+
+UPDATE Reservas SET Reservas.fecha_inicio > "2017-04-01" AND Reservas.fecha_fin < "2017-04-30" WHERE cantdepersonasAlo = 2; 
+
+/*ej19*/ 
+
+SELECT apellidoCT, nombreCT, telCT, celularCT FROM clienteTurismo WHERE apellidoCT LIKE "%ar"; 
+
+/*ej20*/ 
+
+UPDATE Reservas SET Paquetes_idPaquetes = 2 WHERE Reservas.Paquetes_idPaquetes IS NULL ; 
+
+LEFT JOIN ; 
+
+/*ej21*/ 
+
+DELETE * FROM clienteTurismo WHERE dniCT = "6" ;  
+
+/*ej22*/ 
+
+UPDATE Paquetes SET diasPaq = 7, nochesPaq = 8 WHERE lugarPaq="Bariloche";  
+
+ 
