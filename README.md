@@ -1,4 +1,6 @@
-Linares y Tedesco
+Integrantes: Linares y Tedesco
+
+Trabajos:
 [TP DER](file:///home/linaresytedesco/Descargas/DER-LINARES-Y-TEDESCO-2-1.pdf)
 [DER A TABLAS](LINARESyTEDESCO.mwb)
 [CONSULTAS I - CAMIONERO](CI-ejercicio-camioneros)
